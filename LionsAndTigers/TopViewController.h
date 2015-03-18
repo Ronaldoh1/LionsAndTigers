@@ -12,13 +12,13 @@
 
 @protocol TopDelegate <NSObject>
 
--(void) topRevealButtonTapped: (UIBarButtonItem *)button;
+-(void)topRevealButtonTapped:(UIBarButtonItem *)button;
 
 
 @end
 @interface TopViewController : UIViewController
 
-@property id<TopDelegate> delegate;
+@property id<TopDelegate> root;
 
 
 @end

@@ -23,10 +23,16 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-- (IBAction)onLionButtonTapped:(UIButton *)sender {
+
+
+- (IBAction)onLionButtonTapped:(UIButton *)sender
+{
     
 }
-- (IBAction)onTIgerButtonTapped:(UIButton *)sender {
+
+
+- (IBAction)onTIgerButtonTapped:(UIButton *)sender
+{
 
 }
 

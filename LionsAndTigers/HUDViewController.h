@@ -15,7 +15,7 @@
 
 @interface HUDViewController : UIViewController
 
-@property id<HUDDelegate> delegate;
+@property id<HUDDelegate>root;
 
 -(void)lionButtonTappped:(UIButton *)button;
 
