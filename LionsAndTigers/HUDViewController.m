@@ -7,6 +7,7 @@
 //
 
 #import "HUDViewController.h"
+#import "CustomCollectionViewCell.h"
 
 
 @interface HUDViewController ()
@@ -31,8 +32,9 @@
 
 - (IBAction)onLionButtonTapped:(UIButton *)sender
 {
-    
+    //CustomCollectionViewCell *cell = [
     NSLog(@"lion tapped");
+    
 }
 
 

@@ -33,8 +33,6 @@
     self.top.view.backgroundColor = [UIColor redColor];
     self.isActive = false;
 
-    //NSMutableArray *photosArray = [NSMutableArray arrayWithObjects:[UIImage imageNamed:@"lion1@2x" ],[UIImage imageNamed:@"lion2@2x" ],[UIImage imageNamed:@"lion3@2x" ],[UIImage imageNamed:@"tiger1@2x" ],[UIImage imageNamed:@"tiger1@2x" ],[UIImage imageNamed:@"tiger3@2x" ], nil];
-
 }
 
 -(void)topRevealButtonTapped:(UIBarButtonItem *)button
@@ -51,13 +49,14 @@
 }
 -(void)lionButtonTappped:(UIButton *)button{
  
-    
+    [self.top selectLions];
+
 
 
 }
 
 -(void)tigerButtonTapped:(UIButton *)button{
-
+    [self.top selectTigers];
 }
 
 

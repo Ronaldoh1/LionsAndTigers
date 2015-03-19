@@ -17,6 +17,9 @@
 
 @end
 @interface TopViewController : UIViewController
+-(void)selectLions;
+-(void)selectTigers;
+
 
 @property id<TopDelegate> root;
 //@property (nonatomic) BOOL lionsSelected;

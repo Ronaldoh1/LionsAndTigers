@@ -11,4 +11,6 @@
 @interface CustomCollectionViewCell : UICollectionViewCell
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
+@property (nonatomic) BOOL lionsSelected;
+
 @end
