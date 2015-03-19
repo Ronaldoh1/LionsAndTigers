@@ -10,7 +10,7 @@
 #import "TopViewController.h"
 #import "HUDViewController.h"
 
-@interface RootViewController () <TopDelegate, HUDDelegate, UICollectionViewDelegate, UICollectionViewDataSource>
+@interface RootViewController () <TopDelegate, HUDDelegate>
 
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *topLeftConstraint;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *toprRightConstraint;
@@ -31,7 +31,7 @@
     self.top.view.backgroundColor = [UIColor redColor];
     self.isActive = false;
 
-    NSMutableArray *photosArray = [NSMutableArray arrayWithObjects:[UIImage imageNamed:@"lion1@2x" ],[UIImage imageNamed:@"lion2@2x" ],[UIImage imageNamed:@"lion3@2x" ],[UIImage imageNamed:@"tiger1@2x" ],[UIImage imageNamed:@"tiger1@2x" ],[UIImage imageNamed:@"tiger3@2x" ], nil];
+    //NSMutableArray *photosArray = [NSMutableArray arrayWithObjects:[UIImage imageNamed:@"lion1@2x" ],[UIImage imageNamed:@"lion2@2x" ],[UIImage imageNamed:@"lion3@2x" ],[UIImage imageNamed:@"tiger1@2x" ],[UIImage imageNamed:@"tiger1@2x" ],[UIImage imageNamed:@"tiger3@2x" ], nil];
 
 }
 
@@ -77,19 +77,19 @@
 }
 
 
--(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-    return 3;
-}
+//-(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
+//    return 3;
+//}
 
 
--(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
-
-   // UICollectionViewCell *cell1 = [collectionView dequeueReusableCellWithReuseIdentifier:@"Cell1" forIndexPath:indexPath];
-  //  UIImage *image = [self.photosArray objectAtIndex:indexPath.row];
-
-   // cell1.backgroundView = [[UIImage alloc] initwith:[self.photosArray objectAtIndex:indexPath.row]];
-
-}
+//-(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
+//
+//   // UICollectionViewCell *cell1 = [collectionView dequeueReusableCellWithReuseIdentifier:@"Cell1" forIndexPath:indexPath];
+//  //  UIImage *image = [self.photosArray objectAtIndex:indexPath.row];
+//
+//   // cell1.backgroundView = [[UIImage alloc] initwith:[self.photosArray objectAtIndex:indexPath.row]];
+//
+//}
 
 
 

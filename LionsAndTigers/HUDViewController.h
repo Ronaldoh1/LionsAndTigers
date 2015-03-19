@@ -10,16 +10,15 @@
 
 @protocol HUDDelegate <NSObject>
 
+-(void)lionButtonTappped:(UIButton *)button;
+
+-(void)tigerButtonTapped:(UIButton *)button;
 
 @end
 
 @interface HUDViewController : UIViewController
 
 @property id<HUDDelegate>root;
-
--(void)lionButtonTappped:(UIButton *)button;
-
--(void) tigerButtonTapped:(UIButton *)button;
 
 
 @end
