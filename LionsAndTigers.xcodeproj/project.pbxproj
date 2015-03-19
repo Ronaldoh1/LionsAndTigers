@@ -16,6 +16,7 @@
 		F2D8C3B11ABA1EAF00A836C1 /* LionsAndTigersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D8C3B01ABA1EAF00A836C1 /* LionsAndTigersTests.m */; };
 		F2D8C3BC1ABA201900A836C1 /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D8C3BB1ABA201900A836C1 /* TopViewController.m */; };
 		F2D8C3BF1ABA207500A836C1 /* HUDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D8C3BE1ABA207500A836C1 /* HUDViewController.m */; };
+		F2D8C3C21ABA42CC00A836C1 /* CustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D8C3C11ABA42CC00A836C1 /* CustomCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		F2D8C3BB1ABA201900A836C1 /* TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopViewController.m; sourceTree = "<group>"; };
 		F2D8C3BD1ABA207500A836C1 /* HUDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDViewController.h; sourceTree = "<group>"; };
 		F2D8C3BE1ABA207500A836C1 /* HUDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDViewController.m; sourceTree = "<group>"; };
+		F2D8C3C01ABA42CC00A836C1 /* CustomCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomCollectionViewCell.h; path = ../CustomCollectionViewCell.h; sourceTree = "<group>"; };
+		F2D8C3C11ABA42CC00A836C1 /* CustomCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomCollectionViewCell.m; path = ../CustomCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 			children = (
 				F2D8C3981ABA1EAF00A836C1 /* AppDelegate.h */,
 				F2D8C3991ABA1EAF00A836C1 /* AppDelegate.m */,
+				F2D8C3C01ABA42CC00A836C1 /* CustomCollectionViewCell.h */,
+				F2D8C3C11ABA42CC00A836C1 /* CustomCollectionViewCell.m */,
 				F2D8C39B1ABA1EAF00A836C1 /* RootViewController.h */,
 				F2D8C39C1ABA1EAF00A836C1 /* RootViewController.m */,
 				F2D8C3BD1ABA207500A836C1 /* HUDViewController.h */,
@@ -232,6 +237,7 @@
 				F2D8C3BF1ABA207500A836C1 /* HUDViewController.m in Sources */,
 				F2D8C3BC1ABA201900A836C1 /* TopViewController.m in Sources */,
 				F2D8C39D1ABA1EAF00A836C1 /* RootViewController.m in Sources */,
+				F2D8C3C21ABA42CC00A836C1 /* CustomCollectionViewCell.m in Sources */,
 				F2D8C39A1ABA1EAF00A836C1 /* AppDelegate.m in Sources */,
 				F2D8C3971ABA1EAF00A836C1 /* main.m in Sources */,
 			);

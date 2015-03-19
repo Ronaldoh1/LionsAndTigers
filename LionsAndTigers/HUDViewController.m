@@ -8,7 +8,9 @@
 
 #import "HUDViewController.h"
 
+
 @interface HUDViewController ()
+
 
 @end
 
@@ -16,7 +18,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -27,13 +30,13 @@
 
 - (IBAction)onLionButtonTapped:(UIButton *)sender
 {
-    
+    [self lionButtonTappped:sender];
 }
 
 
 - (IBAction)onTIgerButtonTapped:(UIButton *)sender
 {
-
+    [self tigerButtonTapped:sender];
 }
 
 /*
