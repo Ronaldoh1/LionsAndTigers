@@ -9,16 +9,18 @@
 #import "RootViewController.h"
 #import "TopViewController.h"
 #import "HUDViewController.h"
+#import "CustomCollectionViewCell.h"
 
 @interface RootViewController () <TopDelegate, HUDDelegate>
 
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *topLeftConstraint;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *toprRightConstraint;
 
+
 @property (nonatomic) BOOL isActive;
 @property HUDViewController *hud;
 @property TopViewController *top;
-@property (nonatomic) NSMutableArray *photosArray;
+
 
 
 @end
@@ -47,6 +49,16 @@
         self.topLeftConstraint.constant = -16.0;
     }
 }
+-(void)lionButtonTappped:(UIButton *)button{
+ 
+    
+
+
+}
+
+-(void)tigerButtonTapped:(UIButton *)button{
+
+}
 
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
@@ -73,6 +85,7 @@
         hudVC.root = self;
 
     }
+
 
 }
 

@@ -18,6 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navigationController.navigationBar.hidden = true;
 
 
 }
@@ -30,13 +31,15 @@
 
 - (IBAction)onLionButtonTapped:(UIButton *)sender
 {
-    [self lionButtonTappped:sender];
+    
+    NSLog(@"lion tapped");
 }
 
 
 - (IBAction)onTIgerButtonTapped:(UIButton *)sender
 {
-    [self tigerButtonTapped:sender];
+   [self.root tigerButtonTapped:sender];
+    NSLog(@"tiger tapped");
 }
 
 /*
